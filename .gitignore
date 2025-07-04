@@ -1,0 +1,14 @@
+# API Keys e configurazioni sensibili
+.env
+.env.local
+config.json
+*.key
+
+# Dipendenze
+node_modules/
+venv/
+__pycache__/
+
+# File di sistema
+.DS_Store
+Thumbs.db
