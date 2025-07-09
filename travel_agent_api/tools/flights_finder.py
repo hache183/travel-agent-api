@@ -33,7 +33,7 @@ def flights_finder(params: FlightsInput):
 
 	try:
 		params = {
-			"api_key": os.getenv("9b822597af73bd915ef0195f764158ee06ef2fd197e2e9444525fc19ddf832d6"),
+			"api_key": os.getenv("SERPAPI_API_KEY"),
 			"engine": "google_flights",
 			"hl": "it",
 			"gl": "it",

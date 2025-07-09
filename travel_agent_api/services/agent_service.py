@@ -72,7 +72,7 @@ format: markdown
 class Agent:
 	def __init__(self):
 		self.current_datetime = datetime.now()
-		self.model = ChatOpenAI(model_name="gpt-4o")
+		self.model = ChatOpenAI(model_name="gpt-4o-mini")
 		self.tools = [
 			chain_historical_expert,
 			flights_finder,
